@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Port Redirect</title>
+    <script>
+        window.onload = function() {
+            var hostname = window.location.hostname;
+            var newUrl = "http://" + hostname + ":8080";
+            window.location.href = newUrl;
+        }
+    </script>
+</head>
+<body>
+    <p>Starting IOPaint</p>
+</body>
+</html>

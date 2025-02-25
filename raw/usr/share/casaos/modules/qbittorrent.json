@@ -1,0 +1,28 @@
+{
+    "name": "qbittorrent",
+    "ui": {
+        "name": "qbittorrent",
+        "title": {
+          "en_us": "qBittorrent"
+        },
+        "prefetch": true,
+        "show": true,
+        "entry": "/modules/qbittorrent/index.html",
+        "icon": "/modules/qbittorrent/logo.png",
+          "description": "qBittorrent",
+        "formality": {
+          "type": "newtab",
+          "props": {
+            "width": "100vh",
+            "height": "100vh",
+            "hasModalCard": true,
+            "animation": "zoom-in"
+          }
+        }
+    },
+    "services":[
+        {
+            "name": "qbittorrenti"
+        }
+    ]
+}
