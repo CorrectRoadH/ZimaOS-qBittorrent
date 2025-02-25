@@ -20,9 +20,14 @@
           }
         }
     },
+    "hook":{
+      "preInstall":[
+        "wget https://raw.githubusercontent.com/CorrectRoadH/ZimaOS-qBittorrent/refs/heads/master/config/qBittorrent.conf /DATA/AppData/qBittorrent/qBittorrent.conf"
+      ]
+    },
     "services":[
         {
-            "name": "qbittorrenti"
+            "name": "qbittorrent"
         }
     ]
 }
